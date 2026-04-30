@@ -2,8 +2,22 @@
 <html>
 <head>
 
+
+
+
 <link rel="stylesheet" href="style.css">
 </head>
+
+
+<style>
+h2,p{
+ animation: aparecer 2s;
+}
+@keyframes aparecer{
+ from{opacity:0;}
+ to{opacity:1;}
+}
+</style>
 
 <body>
 
@@ -34,6 +48,30 @@ img{
   padding: 4px;               /* espaço interno */
   margin: 8px;                /* espaço entre imagens */
   box-shadow: 0 4px 10px rgba(0,0,0,0.4); /* sombra */
+}
+</style>
+
+<style>
+h2{
+ background-color: rgba(0,0,0,0.6);
+ padding:15px;
+ border-radius:15px;
+ margin:20px;
+}
+</style>
+
+<style>
+img{
+ transition:0.4s;
+}
+img:hover{
+ transform:scale(1.05);
+}
+</style>
+
+<style>
+body{
+ font-family: Arial, sans-serif;
 }
 </style>
 
